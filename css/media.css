@@ -1,0 +1,42 @@
+@media screen and (max-width: 768px) {
+    .teachers-content-block {
+        grid-column:span 12;
+    }
+
+    .section-title, .situations-block-text, .costs-content {
+        width:95%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .image-block, .text-block, .costs-general-info,
+    .detailed-info, .costs-title, .situations-block,
+    .situations-block:nth-child(2n+1), .we-forsee-block
+     {
+        grid-column:span 12;
+    }
+
+    .header-content, .top-block-content, .we-forsee-content,
+    .teachers-content, .costs-content,
+    .how-it-happens-content, .comments-content, .test-content,
+     .situations-content, .situations-title,
+     .footer-content {
+        width:95%;
+    }
+
+    .header-logo, .footer-logo {
+        grid-column:span 3;
+    }
+
+    .contact-info {
+        grid-column:span 9;
+    }
+
+    .we-forsee, .costs {
+        background-image:none;
+    }
+
+    h2 {
+        font-size:2rem;
+    }
+}
